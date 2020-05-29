@@ -1,0 +1,101 @@
+body
+{
+	margin:0;
+	background:white;
+}
+.container
+{
+	height:auto;
+	width:100%;
+	position:relative;
+
+}
+.login_box
+{
+	position:relative;
+	height:80%;
+	width:30%;
+	background:rgb(5,104,84);
+	top:-2%;
+	left:35%;
+	text-align:center;
+	border-radius:20px;
+	margin-bottom:0%;
+}.register_box
+{
+	position:relative;
+	height:90%;
+	width:30%;
+	background:rgb(5,104,84);
+	top:-5%;
+	left:35%;
+	text-align:center;
+	border-radius:20px;
+	
+}
+.titleLogin
+{
+	position:relative;
+	font-size:4vw;
+	color:white;
+	top:20%;
+}
+.inputarea
+{
+	position:relative;
+	display:block;
+	width:70%;
+	left:15%;
+	height:auto;
+	font-size:1.2vw;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	border-radius:10px;
+	border:none;
+	outline:none;
+	top:20%;
+	margin-bottom:30px;
+	text-align:center;
+}
+.login_signup
+{
+	position:relative;
+	width:30%;
+	left:0%;
+	height:auto;
+	font-size:1.2vw;
+	margin-top:35%;
+	margin-left:5px;
+	margin-right:5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-radius:10px;
+	border:none;
+	outline:none;
+	background:rgb(3,80,65);
+	color:white;
+}
+.login_signup:active
+{ transform:translateY(4px);}
+.forgotpassword
+{
+	position:relative;
+	width:62%;
+	left:0%;
+	height:auto;
+	font-size:1.2vw;
+	margin-top:5%;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-radius:10px;
+	border:none;
+	outline:none;
+	background:rgb(3,80,65);
+	color:white;
+}
+.forgotpassword:active
+{ transform:translateY(4px);}
+
+
+

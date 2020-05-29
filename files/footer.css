@@ -1,0 +1,193 @@
+/*footer area */
+
+.footer
+{
+	position:relative;
+	width:100%;
+	height:auto;
+	background:black;
+	justify-content:center;
+	text-align:center;
+}
+.websitefootertitle
+{
+	position:relative;
+	font-size:2vw;
+	color:white;
+	justify-content:center;
+	text-align:center;
+	background:red;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:100%;
+	background:rgb(3,131,105);
+	border:none;
+	outline:none;
+	cursor:default;
+	
+}.websitefooterbottom
+{
+	position:relative;
+	font-size:1vw;
+	color:black;
+	justify-content:center;
+	text-align:center;
+	background:red;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:100%;
+	background:white;
+	cursor:default;
+	outline:none;
+	border:none;
+}
+.headtitle
+{
+	position:relative;
+	font-size:2vw;
+	color:white;
+	cursor:default;
+}
+.footerbody
+{
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	background:rgb(0,82,65);
+}
+.box
+{
+	flex:1;
+	height:auto;
+	max-width:25%;
+	margin-left:30px;
+	margin-right:30px;
+	justify-content:center;
+	text-align:center;
+	background:rgb(1,54,43);
+}
+.contactinput
+{
+	position:relative;
+	display:block;
+	font-size:1vw;
+	padding-bottom:2px;
+	padding-top:2px;
+	border-radius:5px;
+	margin:5px;
+	margin-top:15px;
+	padding-left:5px;
+	left:15%;
+	width:60%;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.contacttextarea
+{
+	position:relative;
+	display:block;
+	font-size:1vw;
+	padding-bottom:2px;
+	padding-top:2px;
+	border-radius:5px;
+	margin:5px;
+	padding-left:5px;
+	left:15%;
+	width:60%;
+	resize:vertical;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.quicklinks 
+{padding-top:50px;}
+.quicklinks a
+{
+	font-size:1.5vw;
+	text-align:left;
+	text-decoration:none;
+	color:white;
+	padding-left:10px;
+	padding:5px
+}
+.quicklinks a:hover
+{color:grey;}
+.aboutcontent
+{
+	padding-top:20px;
+	position:relative;
+	width:80%;
+	height:auto;
+	left:10%;
+	font-size:1.5vw;
+	color:white;
+	cursor:default;
+}
+.sendmail
+{
+	position:relative;
+	padding:5px;
+	width:auto;
+	padding-left:30px;
+	padding-right:30px;
+	font-size:1.2vw;
+	border-radius:15px;
+	background:rgb(3,80,65);
+	color:white;
+	outline:none;
+	cursor:pointer;
+}
+@media only screen and (max-width: 1100px) 
+{
+	.websitefootertitle
+	{
+		font-size:4vw;
+	}
+	.footerbody
+	{
+		display:block;
+		width:100%;
+		height:auto;
+		position:relative;
+	}
+	.sendmail
+	{
+	padding-left:100px;
+	padding-right:100px;
+		font-size:2vw;
+	}
+	.box
+	{
+		max-width:100%;
+		height:auto;
+	}
+	.headtitle
+	{
+		font-size:1.5vw;
+	}
+	.contactinput
+	{
+		left:20%;
+		font-size:2vw;
+	}
+	.contacttextarea
+	{
+		left:20%;
+		font-size:2vw;
+		
+	}#conntactus
+	{
+		font-size:1.5vw;
+	}
+	.quicklinks a
+	{
+		font-size:1.5vw;
+	}
+	.websitefooterbottom
+	{
+		font-size:2vw;
+	}
+	.aboutcontent
+	{
+		font-size:2.5vw;
+	}
+}

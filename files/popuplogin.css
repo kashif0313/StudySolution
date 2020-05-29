@@ -1,0 +1,160 @@
+.container
+{
+	height:auto;
+	width:100%;
+	position:relative;
+
+}
+.login_box
+{
+	position:relative;
+	height:auto;
+	width:30%;
+	background:rgb(5,104,84);
+	margin-top:2%;
+	left:35%;
+	text-align:center;
+	border-radius:20px;
+	margin-bottom:2%;
+	padding-top:2%;
+	padding-bottom:5%;
+	margin-top:10%
+}
+
+.inputfields
+{
+	position:relative;
+	width:100%;
+	height:auto;
+	top:15%;
+	
+	
+}
+.buttonscontainer
+{
+	width:100%;
+	position:relative;
+	height:auto;
+	top:20%;
+	
+	padding-bottom:20%;
+	
+}
+.titleLogin
+{
+	position:relative;
+	font-size:4vw;
+	color:white;
+	
+	top:10%;
+}
+.inputarea
+{
+	position:relative;
+	display:block;
+	width:70%;
+	left:15%;
+	height:auto;
+	font-size:1.2vw;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	border-radius:10px;
+	border:none;
+	outline:none;
+	
+	margin-bottom:30px;
+	text-align:center;
+}
+
+.login_signup
+{
+	position:relative;
+	width:30%;
+	left:0%;
+	height:auto;
+	font-size:1.2vw;
+	top:0;
+	margin-left:5px;
+	margin-right:5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-radius:10px;
+	border:none;
+	outline:none;
+	background:rgb(3,80,65);
+	color:white;
+}
+.login_signup:active
+{ transform:translateY(4px);}
+
+.forgotpassword
+{
+	position:relative;
+	width:62%;
+	left:0%;
+	height:auto;
+	font-size:1.2vw;
+	margin-top:5%;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-radius:10px;
+	border:none;
+	outline:none;
+	background:rgb(3,80,65);
+	color:white;
+}
+.forgotpassword:active
+{ transform:translateY(4px);}
+.errormsg
+{
+	position:relative;
+	font-size:1.2vw;
+	font-weight:bold;
+}
+
+.inputfields
+{
+	position:relative;
+	width:100%;
+	height:auto;
+	top:15%;
+	
+	
+}
+.buttonscontainer
+{
+	width:100%;
+	position:relative;
+	height:auto;
+	top:20%;
+	
+	padding-bottom:20%;
+	
+}
+.titleLogin
+{
+	position:relative;
+	font-size:4vw;
+	color:white;
+	top:10%;
+}
+.inputarea
+{
+	position:relative;
+	display:block;
+	width:70%;
+	left:15%;
+	height:auto;
+	font-size:1.2vw;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	border-radius:10px;
+	border:none;
+	outline:none;
+	
+	margin-bottom:30px;
+	text-align:center;
+}
+

@@ -1,0 +1,310 @@
+
+body
+{
+	margin:0;
+	background:white;
+}
+.container
+{
+	height:auto;
+	width:100%;
+	position:relative;
+text-align:center;
+
+}
+.websitebody
+{
+	position:relative;
+	width:100%;
+	top:60%;
+	justify-content:center;
+	text-align:center;
+	margin-top:5%;
+	display:block;
+}.websitebodyweb
+{
+	position:relative;
+	width:100%;
+	top:0%;
+	justify-content:center;
+	text-align:center;
+	margin-top:0%;
+	display:block;
+}
+.websitebodymob
+	{
+		display:none;
+	}
+.courseimg
+{
+	position:relative;
+	height:250px;
+	width:250px;
+	border:5px solid black;
+	margin-left:25px;
+	margin-right:25px;
+	margin-top:50px;
+	margin-bottom:50px;
+	font-size:2vw;
+	display:inline-block;
+	line-height:200px;
+	color:white;
+	background:rgb(3,131,105);
+	cursor:pointer;
+}
+
+.courseimg:hover
+{
+	background:rgb(13,201,150);
+}
+
+.pastpasersimg
+{
+	position:relative;
+	height:150px;
+	width:150px;
+	border:5px solid black;
+	margin-left:25px;
+	margin-right:25px;
+	margin-top:50px;
+	margin-bottom:50px;
+	font-size:2vw;
+	display:inline-block;
+	line-height:130px;
+	color:white;
+	background:rgb(3,131,105);
+	cursor:pointer;
+	
+}
+.pastpasersimg:hover
+{
+	background:rgb(13,201,150);
+}
+
+.websitenametop
+{
+	position:relative;
+	font-size:2.5vw;
+	top:50px;
+	background:transparent;
+	border:none;
+	color:black;
+	justify-content:center;
+	text-align:center;
+	cursor:default;
+}
+.error
+{
+font-size:1.5vw;	
+position:absolute;
+top:80%;
+left:45%;
+}
+.error1
+{
+font-size:1.5vw;	
+position:absolute;
+top:80%;
+left:41%;
+}
+.pagination {
+  display: inline-block;
+  position:relative;
+  margin-top:5%;
+  margin-bottom:5%;
+}
+.pagination a
+{
+position:relative;
+color: white;
+  padding:20px;
+  background:black;
+  font-weight:bold;
+  text-decoration: none;
+  font-size:1.2vw;
+}
+.pagination a:hover
+{
+	background:grey;
+}
+.pagination .active
+{
+	background:white;
+	color:black;
+	border:2px solid black;
+	 padding:18px;
+}.pagination .active:hover
+{
+	background:black;
+	color:grey;
+	border:2px solid black;
+}
+
+.contentcontainer
+{
+	height:auto;
+	width:15%;
+	position:relative;
+	border:2px solid black;
+	justify-content:center;
+	text-align:center;
+	left:-5%;
+	display:inline-block;
+	margin-left:10%;
+	margin-top:10%;
+	margin-bottom:10%;
+}.contentcontainer1
+{
+	height:auto;
+	width:15%;
+	position:relative;
+	border:2px solid black;
+	justify-content:center;
+	text-align:center;
+	left:0%;
+	display:inline-block;
+	margin-left:2%;
+	margin-top:1%;
+	margin-bottom:1%;
+}
+.contentheading
+{
+	font-size:1.2vw;
+	justify-content:center;
+	text-align:center;
+	outline:none;
+	border:none;
+}.contentheading1
+{
+	font-size:1.1vw;
+	justify-content:center;
+	text-align:center;
+	outline:none;
+	border:none;
+	width:100%;
+}
+.downloadbtn
+{
+	width:100%;
+	background:rgb(1,54,43);
+	color:white;
+	text-decoration:none;
+	font-size:2vw;
+	padding-left:15%;
+	padding-right:15%;
+}.viewonlinebtn
+{
+	font-size:1.2vw;
+	justify-content:center;
+	text-align:center;
+	width:100%;
+	background:rgb(1,54,43);
+	color:white;
+	border: none;
+	margin-top:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	outline:none;
+}.downloadbtn1 
+{
+	width:100%;
+	background:rgb(1,54,43);
+	color:white;
+	text-decoration:none;
+	font-size:2vw;
+	padding-left:21%;
+	padding-right:21%;
+}.viewonlinebtn1 
+{
+	width:100%;
+	background:rgb(1,54,43);
+	color:white;
+	text-decoration:none;
+	font-size:2vw;
+	padding-left:15%;
+	padding-right:15%;
+}
+.imgcont
+{position:relative;
+	height:auto;
+	width:100%;
+	font-size:2vw;
+	text-align:center;
+	outline:none;
+	border:none;
+	display:inline-block;
+	line-height:200px;
+	color:white;
+	background:rgb(3,131,105);
+}
+.viewonlinebtn:hover
+{background:rgb(13,201,150);}
+.downloadbtn:hover
+{background:rgb(13,201,150);}
+.viewonlinebtn:active
+{ transform:translateY(4px);}
+.downloadbtn:active
+{ transform:translateY(4px);}
+.viewonlinebtn1:hover
+{background:rgb(13,201,150);}
+.downloadbtn1:hover
+{background:rgb(13,201,150);}
+.viewonlinebtn1:active
+{ transform:translateY(4px);}
+.downloadbtn1:active
+{ transform:translateY(4px);}
+.assignmentscontainer
+{
+	font-size:4vw;
+	color:grey;
+	position:relative;
+	margin-top:12%;
+	margin-bottom:12%;
+}
+.solved
+{
+	position:relative;
+	display:inline-block;
+}
+
+.solvedarea
+{
+	font-size:2vw;
+	text-align:center;
+	background:transparent;
+	border:none;
+	position:relative;
+}
+
+
+@media only screen and (max-width: 1100px) 
+{
+	.websitenametop
+	{
+		font-size:3vw;
+		font-weight:bold;
+		display:flex;
+		top:0;
+	}
+	.imgcont
+	{
+		font-size:2vw;
+	}
+	.solvedarea
+	{
+		font-size:3vw;
+	}
+	.courseimg
+{font-size:3vw;}
+.contentcontainer
+{
+	height:auto;
+	width:250px;
+
+}
+.downloadbtn
+{font-size:2vw;}
+.viewonlinebtn
+{font-size:2vw;}
+
+}

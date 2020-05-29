@@ -1,0 +1,139 @@
+body,html
+{
+	margin:0;
+	background:white;
+}
+.container
+{
+	height:auto;
+	width:100%;
+	position:relative;
+	justify-content:center;
+	text-align:center;
+}
+.maindisplay
+{
+	position:relative;
+	width:100%;
+	left:0%;
+	height:auto;
+	font-size:2vw;
+	justify-content:center;
+	text-align:center;
+	padding-top:100px;
+	padding-bottom:10px;
+	cursor:default;
+}
+
+.websitenametop
+{
+	position:relative;
+	font-size:2.5vw;
+	top:50px;
+	background:transparent;
+	border:none;
+	color:black;
+	justify-content:center;
+	text-align:center;
+}
+.websitebody
+{
+	position:relative;
+	
+	justify-content:center;
+	text-align:center;
+	width:100%;
+	margin-bottom:6%;
+}
+.imgcontainer
+{
+	position:relative;
+	height:300px;
+	width:300px;
+	
+	display:inline-block;
+	margin-top:5%;
+	margin-left:5%;
+	justify-content:center;
+	text-align:center;
+	margin-bottom:5%;
+			border-top-right-radius:40px;
+	border-top-left-radius:40px;
+	overflow:hidden;
+	border-left:2px solid black;
+	border-right:2px solid black;
+	border-bottom:2px solid black;
+}
+.headingimg
+{
+	position:absolute;
+	width:100%;
+	top:0px;
+	z-index:1;
+	height:auto;
+	font-size:1.5vw;
+	background:rgb(1,54,43);
+	color:white;
+	justify-content:center;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-top-right-radius:20px;
+	border-top-left-radius:20px;
+	cursor:default;
+}
+.imgofpage
+{
+	position:relative;
+	height:auto;
+	width:60%;
+	top:15%;
+	border-top-right-radius:40px;
+	border-top-left-radius:40px;
+	background-size:100%;
+	transition:0.5s;
+	cursor:pointer;
+}
+.imgofpage:hover
+{transform: scale(1.5);
+transition:0.5s;}
+.semesterlist
+{
+	display:none;
+	font-size:0.5vw;
+	color:blue;
+	background:red;
+	position:absolute;
+	left:4%;
+	padding:20px;
+}
+
+.semesterlist a:hover
+{
+	color:gray;
+}
+.semesterdiv
+{
+	position:relative;
+	display:inline;
+}
+.semesterdiv:hover .semesterlist
+{
+	display:block;
+}
+.headertable
+{
+	border:2px solid black;
+	position:relative;
+}
+@media only screen and (max-width: 1100px) 
+{
+	.maindisplay
+	{
+		font-size:3vw;
+	}
+	.websitenametop
+	{
+		font-size:4vw;
+	}
+}

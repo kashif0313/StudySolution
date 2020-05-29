@@ -1,0 +1,201 @@
+
+/*header css*/
+
+
+.header
+{
+	width:100%;
+	height:auto;
+	position:sticky;
+		background:rgb(3,131,105);
+	font-size:2vw;
+		color:white;
+		font-weight:bold;
+	top:0px;
+	z-index:5;
+padding-top:15px;
+padding-bottom:15px;
+text-align:center;
+	justify-content:center;
+
+}
+.headerlinks
+{
+	position:relative;
+	width:auto;
+	background:green;
+	height:auto;
+	border-radius:12px;
+	text-align:center;
+	justify-content:center;
+	left:0%;
+	background:rgb(3,80,65);
+	padding-bottom:10px;
+	z-index:5;
+}
+.headerlinks a
+{
+	font-size:1.5vw;
+	font-weight:normal;
+	text-decoration:none;
+	color:white;
+	padding-right:10px;
+	margin-left:10px;
+	text-align:center;
+	justify-content:center;
+}
+.headerlinks a:hover
+{
+	color:grey;
+}
+.open_closepanel
+{
+	display:none;
+
+}
+.loginregisterbtn
+{
+	position:relative;
+	font-size:1.3vw;
+	background:green;
+	color:white;
+	margin-left:15;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-radius:8px;
+	background:rgb(3,80,65);
+	cursor:pointer;
+	outline:none;
+}
+.loginregisterbtn:active
+{transform:translateY(4px);}
+.logoutbtn
+{
+position:relative;
+	font-size:1.3vw;
+	background:green;
+	color:white;
+	margin-left:15;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-radius:8px;
+	background:rgb(3,80,65);
+}
+.logoutbtn:active
+{transform:translateY(4px);}
+.loginregistercontainer
+{
+	
+	position:absolute;
+	font-size:1.3vw;
+	color:white;
+	left:85%;
+	top:10%;
+	display:inline-block;
+	
+		
+}
+.websitename
+{ display:block;
+position:relative;
+top:10%;
+text-align:center;
+justify-content:center;
+font-size:3vw;
+cursor:default;
+}
+.close_closepanel{display:none;}
+@media only screen and (max-width: 1100px) 
+{
+	.open_closepanel
+{
+	display:flex;
+	transform:rotate(90deg);
+	color:white;
+	border:none;
+	outline:none;
+	font-size:3vw;
+	background:transparent;
+	position:absolute;
+	top:20%;
+	left:5%;
+	
+}	.close_closepanel
+{
+	display:none;
+	transform:rotate(90deg);
+	color:white;
+	border:none;
+	outline:none;
+	font-size:3vw;
+	background:transparent;
+	position:absolute;
+	top:5%;
+	left:5%;
+	
+}
+.header
+{
+	width:100%;
+	height:auto;
+	text-align:center;
+	justify-content:center;
+}
+.websitename
+{
+	display:block;
+	position:relative;
+	font-size:4vw;
+	color:white;
+	background:transparent;
+	border:none;
+	text-align:center;
+	justify-content:center;
+}
+.loginregistercontainer
+{
+	display:flex;
+left:72%;	
+margin-top:0%;
+margin-bottom:5%;
+}
+.loginregisterbtn
+{
+	font-size:2.5vw;
+	padding-left:15px;
+	padding-right:15px;
+	
+	top:0;
+}.logoutbtn
+{
+	font-size:2.5vw;
+	padding-left:15px;
+	padding-right:15px;
+	top:0;
+	left:90%;
+}
+.headerlinks
+{position:absolute;
+width:100%;
+left:0;
+top:0;
+z-index:2;
+display:none;
+padding-top:5%;
+padding-bottom:5%;
+}
+.headerlinks a
+{
+	display:block;
+	position:relative;
+	font-size:3vw;
+	width:60%;
+	left:18%;
+	transition:1s;
+}
+	
+}
